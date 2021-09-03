@@ -46,6 +46,29 @@
 						<ActiveSource Name="CHIRP 5 PT 4_12" ID="{C09E4EAC-1A99-4211-98C5-E877A9AF2D6E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Alan" ID="{2EE7E0DC-3170-48CC-9488-C1E9E247E24E}" ShortID="465863365">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E6F81624-E7B8-4315-90CA-94AAC3056DA9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89AEF269-7339-48E6-AB9E-7DAB8FB2A8A4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342 1" ID="{F04CE163-7094-4B0C-AEC6-DE2152B40917}">
+							<Language>SFX</Language>
+							<AudioFile>Alarms, Bell, School, Ring SND0342 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="476503815"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Alarms, Bell, School, Ring SND0342 1" ID="{F04CE163-7094-4B0C-AEC6-DE2152B40917}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
