@@ -46,6 +46,32 @@
 						<ActiveSource Name="CHIRP 5 PT 4_12" ID="{C09E4EAC-1A99-4211-98C5-E877A9AF2D6E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Gustavo_Gutierrez" ID="{990C8E78-5F7A-404E-ADF0-76F99D40EE52}" ShortID="875123224">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E6F81624-E7B8-4315-90CA-94AAC3056DA9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89AEF269-7339-48E6-AB9E-7DAB8FB2A8A4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="繁登_Field_Pad_Fm" ID="{1683B4D4-EE4B-49E3-BF69-8A2EE508C403}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>繁登_Field_Pad_Fm.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1065889572"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="繁登_Field_Pad_Fm" ID="{1683B4D4-EE4B-49E3-BF69-8A2EE508C403}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
