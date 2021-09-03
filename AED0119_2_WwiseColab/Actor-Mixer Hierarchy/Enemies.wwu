@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7F7C739-49A3-4414-A27E-43B79B294046}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Enemies" ID="{A7F7C739-49A3-4414-A27E-43B79B294046}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Dragons" ID="{66855E8C-CC07-4B6D-B6C4-EBA7E85DE56A}" ShortID="430702804">
+					<ChildrenList>
+						<Sound Name="RedDragon" ID="{9AB0A775-DB1C-4B0E-9472-27EEB6CDACCD}" ShortID="767340706">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E6F81624-E7B8-4315-90CA-94AAC3056DA9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89AEF269-7339-48E6-AB9E-7DAB8FB2A8A4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BARREL HIT 1K STUD 3 FX 02 00 37  2" ID="{F57EAC42-5EE9-4ADA-9624-629F8C657C87}">
+									<Language>SFX</Language>
+									<AudioFile>BARREL HIT 1K STUD 3 FX 02 00 37  2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1023131784"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BARREL HIT 1K STUD 3 FX 02 00 37  2" ID="{F57EAC42-5EE9-4ADA-9624-629F8C657C87}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
