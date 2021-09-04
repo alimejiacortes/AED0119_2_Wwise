@@ -46,6 +46,29 @@
 						<ActiveSource Name="CHIRP 5 PT 4_12" ID="{C09E4EAC-1A99-4211-98C5-E877A9AF2D6E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Oscar VC" ID="{60A5B745-4501-49D0-8683-9E479BBC10F2}" ShortID="150069391">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E6F81624-E7B8-4315-90CA-94AAC3056DA9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89AEF269-7339-48E6-AB9E-7DAB8FB2A8A4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AIr, Burst, Air Compressor, Fast Trigger, Hit, Double, Short, With Tail SND9576" ID="{289B1DFF-F526-4953-9479-9AF3B110EC48}">
+							<Language>SFX</Language>
+							<AudioFile>AIr, Burst, Air Compressor, Fast Trigger, Hit, Double, Short, With Tail SND9576.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="381373224"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="AIr, Burst, Air Compressor, Fast Trigger, Hit, Double, Short, With Tail SND9576" ID="{289B1DFF-F526-4953-9479-9AF3B110EC48}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
