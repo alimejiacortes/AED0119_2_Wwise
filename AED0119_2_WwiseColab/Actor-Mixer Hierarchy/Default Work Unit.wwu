@@ -46,6 +46,29 @@
 						<ActiveSource Name="CHIRP 5 PT 4_12" ID="{C09E4EAC-1A99-4211-98C5-E877A9AF2D6E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Ortiz Sansón David André" ID="{CC151543-B349-407A-BFB3-F84495153979}" ShortID="527074730">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E6F81624-E7B8-4315-90CA-94AAC3056DA9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89AEF269-7339-48E6-AB9E-7DAB8FB2A8A4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="aldeano 1" ID="{F8F9AE0B-59E4-4A5D-A277-0220E4529D58}">
+							<Language>SFX</Language>
+							<AudioFile>aldeano 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="702859548"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="aldeano 1" ID="{F8F9AE0B-59E4-4A5D-A277-0220E4529D58}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
