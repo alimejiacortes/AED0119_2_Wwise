@@ -3,27 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{458D3B8A-D7B6-4245-981A-F278947E987C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Ali" ID="{4A959602-A9B0-4219-9D8F-9BC170EB1B1B}" ShortID="261708699">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{75636180-F326-43EF-B14D-98D6503DE51A}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="1162"/>
-											<Property Name="Min" Type="Real64" Value="-2223"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-4</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
+				<Sound Name="Ricardo_Ayala" ID="{AB81CDC0-456A-4CB4-B833-3B9757B6644B}" ShortID="365629358">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E6F81624-E7B8-4315-90CA-94AAC3056DA9}"/>
@@ -33,17 +13,17 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="CHIRP 5 PT 4_12" ID="{C09E4EAC-1A99-4211-98C5-E877A9AF2D6E}">
+						<AudioFileSource Name="ZomBear Death" ID="{DF2E9D45-4103-4D9C-AC01-4E93891F58C7}">
 							<Language>SFX</Language>
-							<AudioFile>CHIRP 5 PT 4_12.wav</AudioFile>
+							<AudioFile>ZomBear Death.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="961811329"/>
+								<MediaID ID="923596200"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="CHIRP 5 PT 4_12" ID="{C09E4EAC-1A99-4211-98C5-E877A9AF2D6E}" Platform="Linked"/>
+						<ActiveSource Name="ZomBear Death" ID="{DF2E9D45-4103-4D9C-AC01-4E93891F58C7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
