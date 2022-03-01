@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A7314C1-4131-461A-8F0F-CC7E780C9AA4}" SchemaVersion="103" RootDocumentID="{458D3B8A-D7B6-4245-981A-F278947E987C}" ParentDocumentID="{458D3B8A-D7B6-4245-981A-F278947E987C}">
+	<AudioObjects>
+		<WorkUnit Name="LuisCGA_14380" ID="{6A7314C1-4131-461A-8F0F-CC7E780C9AA4}" OwnerID="{458D3B8A-D7B6-4245-981A-F278947E987C}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="SOUND" ID="{D9258596-06E4-429B-B0FA-5E3B536D6EA8}" ShortID="288934447">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>300</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4BB6B176-985B-453B-91A9-8DA4EB0C9286}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1869"/>
+											<Property Name="Min" Type="Real64" Value="-4320"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E6F81624-E7B8-4315-90CA-94AAC3056DA9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89AEF269-7339-48E6-AB9E-7DAB8FB2A8A4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="industrial" ID="{570AFFE1-7644-4DB2-B1D0-D5D9AD040538}">
+							<Language>SFX</Language>
+							<AudioFile>industrial.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="409003282"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="industrial" ID="{570AFFE1-7644-4DB2-B1D0-D5D9AD040538}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
